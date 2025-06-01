@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url('chat12.png');
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;   
+}
+
+
+.name
+{
+    color: yellow;
+    font-size: 35px;
+    padding-left: 1070px;
+    padding-top: 60px;
+}
+
+
+.a1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 35px;
+    padding-top: -10px;
+    text-decoration: none;
+    
+}
+
+nav .a1:hover
+{
+    color: yellow;
+    transition: 1s;
+ 
+}
+
+.btn
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 40px;
+    padding-top: -10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+ .btn:hover
+{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.content
+{
+    color: antiquewhite;
+    top: 30%;
+    left: -15%;
+    position: absolute;
+    transform: translate(60%, 70%);
+    padding-right: 60px;
+}
+
+h3
+{
+    color: palevioletred;
+    font-size: 30px;
+}
+h1
+{
+    font-size: 40px;
+}
+h4
+{
+    font-size: 30px;
+}
+
+.Subscribe form input:first-child
+{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 120px 13px 14px;
+    border: 3px solid red;
+    border-radius: 40px;
+}
+
+.submit
+{
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    top: 138px;
+    right: 70px;
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+}
+
+.about_me
+{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url('chat2.png');
+}
+.about_me img
+{
+    height: 400px;
+    width: 400px;
+}
+.about_content
+{
+    color: whitesmoke;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main
+{
+    display: flex;
+}
+
+.about_content p
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.skills
+{
+    background-image: url(chat2.png);
+}
+
+.title h2
+{
+    color: palevioletred;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.card
+{
+    height: 350px;
+    width: 270px;
+    background-color: grey;
+    border-radius: 30px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card h4
+{
+    color: whitesmoke;
+    margin: 0;
+}
+
+.para
+{
+    flex-grow: 1;
+}
+
+.para p
+{
+    color: black;
+    font-size: 15px;
+    padding-top: 10px;
+   
+}
+
+.button
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.card i
+{
+    font-size: 40px;
+    padding: 8px 10px;
+}
+
+.button:hover
+{
+     background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    
+}
+
+
+.buttons
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.buttons:hover
+{
+     background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    
+}
+
+.hire
+{
+    width: 100%;
+    text-align: center;
+    background-image: url(chat2.png);
+    padding: 30px 30px;
+}
+
+.hire h3
+{ 
+    color: whitesmoke;
+
+}
+
+.footer
+{
+    width: 100%;
+    text-align: center;
+    background-image: url(chat2.png);
+    padding: 30px 30px;
+}
+
+.footer h1
+{
+    color: palevioletred;
+}
+
+.footer p
+{
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footer .Contact a
+{
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    align-items:  center;
+    justify-content: center;
+    transition: background-color 0.3s;
+
+
+}
+
+.footer i
+{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.Contact a:hover
+{
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+    
+}
+
+/* --------------------------------------------
+   Responsive Design: Media Queries
+-------------------------------------------- */
+
+/* Mobile Devices (<=600px) */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .name {
+    padding-left: 0;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  .a1 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .content {
+    transform: translate(10%, 40%);
+    padding-right: 10px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Tablets (601px to 992px) */
+@media (min-width: 601px) and (max-width: 992px) {
+  .name {
+    font-size: 30px;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .a1 {
+    font-size: 24px;
+  }
+
+  .content {
+    transform: translate(20%, 60%);
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+/* Laptops (993px to 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .name {
+    font-size: 32px;
+    padding-left: 800px;
+  }
+
+  .a1 {
+    font-size: 26px;
+  }
+
+  .content {
+    transform: translate(40%, 60%);
+  }
+
+  .card {
+    width: 30%;
+  }
+}
